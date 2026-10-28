@@ -1,6 +1,6 @@
 # Mumbai Studio Showcase
 
-A responsive directory of 100 independent concept demos for the prospect names in `data/leads.json`. Each page is selected by the `?b=<slug>` query parameter, for example `index.html?b=neha-c-interior-designer`.
+A responsive index linking to 100 separately built, standalone concept websites for the prospect names in `data/leads.json`. Each business has its own page and direct URL under `demos/<slug>/`, for example `demos/neha-c-interior-designer/`. The layouts, type, color, motion and image composition vary across pages.
 
 ## What is included
 
@@ -22,9 +22,9 @@ Then open `http://localhost:8000/`.
 
 ## Publish with GitHub Pages
 
-Copy the contents of this directory into the root of the target GitHub repository, commit and push, then enable GitHub Pages for the repository’s publishing branch in the repository settings. The site is static and needs no build step. The published showcase is https://tumpabhaigamer-cpu.github.io/mumbai/. The absolute link for every lead is listed in `data/client-demo-links.csv`; each query parameter opens that lead directly.
+Copy the contents of this directory into the root of the target GitHub repository, commit and push, then enable GitHub Pages for the repository’s publishing branch in the repository settings. The site is static and needs no build step. The published showcase is https://tumpabhaigamer-cpu.github.io/mumbai/. The absolute, direct link for every lead is listed in `data/client-demo-links.csv`. Each URL opens that business’s own standalone website.
 
-The final public links depend on the repository owner/name and GitHub Pages URL. They are not embedded here yet.
+GitHub Pages: https://tumpabhaigamer-cpu.github.io/mumbai/.
 
 ## Content and imagery
 

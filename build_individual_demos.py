@@ -95,6 +95,10 @@ def safe_wa(message):
     return 'https://wa.me/?text=' + quote(message)
 
 for lead in LEADS:
+    # INSTA CARS has a separate custom 3D showroom page; keep this generator
+    # from replacing that concept with the standard lead template.
+    if lead['slug'] == 'insta-cars-pre-owned-cars':
+        continue
     target = ROOT / 'demos' / lead['slug'] / 'index.html'
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(render(lead), encoding='utf-8')

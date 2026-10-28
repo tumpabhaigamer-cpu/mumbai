@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Mumbai Studio Showcase — 100 concept demos</title>
+<meta name="description" content="An independent concept-demo showcase for 100 Mumbai small businesses across six categories. Illustrative copy and imagery; not any business's official website.">
+<meta name="theme-color" content="#FAF8F3">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Mumbai Studio Showcase — 100 concept demos">
+<meta property="og:description" content="Independent concept demos for 100 Mumbai small businesses. Illustrative copy and imagery — not official websites.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23FAF8F3'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%238C6A3F' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%23C9A063'/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/core.css">
+<link rel="stylesheet" href="assets/css/systems.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="ribbon" role="note">
+  <span><b>Independent concept demo</b></span><span class="dot">•</span>
+  <span>illustrative copy and imagery</span><span class="dot">•</span>
+  <span>not the client’s official website</span>
+</div>
+
+<header class="masthead">
+  <div class="wrap bar">
+    <a class="wordmark" href="./" aria-label="Mumbai Studio Showcase — home">
+      <span class="glyph" aria-hidden="true"></span>
+      <span class="txt">Mumbai Studio Showcase <i>— 100</i></span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#directory">Directory</a>
+      <a href="#how" class="hide-s">How it works</a>
+      <a href="#ethics" class="hide-s">Ethics</a>
+      <a href="#directory" id="nav-demo">Open a demo</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ===================== DIRECTORY VIEW ===================== -->
+  <div id="directory">
+
+    <section class="hero wrap" aria-labelledby="h1">
+      <div class="eyebrow"><span class="ln" aria-hidden="true"></span><span class="label">Mumbai · 2026 outreach concept</span></div>
+      <h1 class="display" id="h1">One hundred Mumbai<br><em>small businesses,</em><br>one link each.</h1>
+      <p class="sub">A private viewing deck for client conversations. Every entry below opens a <strong>concept demo</strong> — a designed first impression you can send in a single URL, on a phone, without a call.</p>
+
+      <div class="stats" role="list">
+        <div class="stat" role="listitem"><span class="n">100</span><span class="k">Businesses</span></div>
+        <div class="stat" role="listitem"><span class="n">6</span><span class="k">Design systems</span></div>
+        <div class="stat" role="listitem"><span class="n">1</span><span class="k">Share link each</span></div>
+        <div class="stat" role="listitem"><span class="n">0</span><span class="k">Invented facts</span></div>
+      </div>
+
+      <div class="notice">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+        <div>
+          <p><strong>Independent concept demo • illustrative copy and imagery • not the client’s official website.</strong></p>
+          <p>Business names are shown only to identify the prospect each mock-up was prepared for. Nothing here is a verified claim: no reviews, prices, credentials, years in business, awards, contact details or real portfolio work are stated or implied. Imagery is AI-generated illustration, not client photography.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- toolbar -->
+    <div class="toolbar" id="toolbar">
+      <div class="wrap">
+        <div class="searchrow">
+          <div class="search" id="searchbox">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 21 21"/></svg>
+            <label class="sr" for="q">Search businesses</label>
+            <input id="q" type="search" placeholder="Search a business, category or system…" autocomplete="off" spellcheck="false">
+            <kbd aria-hidden="true">/</kbd>
+            <button class="clear" id="clear" type="button" aria-label="Clear search">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+            </button>
+          </div>
+          <div class="selectbox">
+            <label class="sr" for="sort">Sort</label>
+            <select id="sort">
+              <option value="index">Order: list order</option>
+              <option value="name">Order: A–Z</option>
+              <option value="category">Order: category</option>
+            </select>
+          </div>
+        </div>
+        <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+        <div class="metabar">
+          <p class="count" id="count" aria-live="polite"></p>
+          <button class="linkish" id="random" type="button">Open a random demo →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="grid" id="grid"></div>
+      <noscript><p style="padding:2rem 0">This showcase needs JavaScript to build the directory and the shareable previews. Nothing is sent to a server — all data ships in <code>assets/js/data.js</code>.</p></noscript>
+    </div>
+
+    <section class="how wrap" id="how" aria-labelledby="how-h">
+      <h2 id="how-h">How this is used in outreach</h2>
+      <div class="steps">
+        <div class="step">
+          <span class="no">01</span>
+          <h3>Find the business</h3>
+          <p>Search or filter the directory. Each card names the design system the concept was built in, so a client sees two or three distinct directions rather than one template.</p>
+        </div>
+        <div class="step">
+          <span class="no">02</span>
+          <h3>Open the concept</h3>
+          <p>The demo lives at a query string: <code>index.html?b=business-slug</code>. Each of the 100 links opens independently, so a single preview can be sent without exposing the rest.</p>
+        </div>
+        <div class="step">
+          <span class="no">03</span>
+          <h3>Copy link, then talk</h3>
+          <p>Use <em>Copy link</em> or the WhatsApp button inside the preview. WhatsApp opens a blank chat picker with a prefilled message — no recipient number is embedded or guessed.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===================== PREVIEW VIEW (rendered by JS) ===================== -->
+  <div id="preview" hidden></div>
+</main>
+
+<footer class="site wrap" id="ethics">
+  <div class="cols">
+    <div>
+      <h4>About this deck</h4>
+      <p>Mumbai Studio Showcase is an independent outreach concept. It pairs 100 Mumbai small businesses with six category-specific design systems — Aperture (interior design), Veil (bridal makeup), Loom (couture &amp; jewellery), Crumb (custom cakes), Frame (weddings &amp; films) and Ledger (dental, fitness, auto &amp; real estate).</p>
+    </div>
+    <div>
+      <h4>What this is not</h4>
+      <p>Not any business’s official website. Not a portfolio, testimonial, price list or credential claim. All descriptive copy is illustrative and marked for confirmation before any use.</p>
+    </div>
+    <div>
+      <h4>Assets</h4>
+      <p>Ten AI-generated editorial images and one generated ambient loop are used illustratively. Typefaces are self-hosted. No trackers, no cookies, no third-party requests.</p>
+    </div>
+    <p class="fine">Names are used solely to identify the prospect for whom a mock-up was prepared. If you are named here and would prefer not to be, this deck can be removed on request. Concept demo — brand details and copy for illustration; confirm before use.</p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

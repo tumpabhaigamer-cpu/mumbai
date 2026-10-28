@@ -22,10 +22,11 @@ Then open `http://localhost:8000/`.
 
 ## Publish with GitHub Pages
 
-Copy the contents of this directory into the root of the target GitHub repository, commit and push, then enable GitHub Pages for the repository’s publishing branch in the repository settings. The site is static and needs no build step. Once published, the individual links in `data/client-demo-links.csv` can be prefixed with the published site URL; each query parameter opens one lead directly.
+Copy the contents of this directory into the root of the target GitHub repository, commit and push, then enable GitHub Pages for the repository’s publishing branch in the repository settings. The site is static and needs no build step. The published showcase is https://tumpabhaigamer-cpu.github.io/mumbai/. The absolute link for every lead is listed in `data/client-demo-links.csv`; each query parameter opens that lead directly.
 
 The final public links depend on the repository owner/name and GitHub Pages URL. They are not embedded here yet.
 
 ## Content and imagery
 
 The lead names are provided to identify each prospect. All site copy and portfolio-style images are illustrative layout material, not client-approved content or work. Confirm all copy, services, locations, contact information, photography, and branding with each business before any production use.
+
